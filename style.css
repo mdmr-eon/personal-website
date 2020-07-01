@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2{
@@ -16,7 +16,7 @@ h1{
     padding: 0;
 }
 p{
-    font-weight: 400;
+    font-weight: 500;
     color: #636366;
     margin: 40px 0px;
     padding: 0;
@@ -46,12 +46,16 @@ p{
 .link-button{
     text-decoration: none;
     text-transform: uppercase;
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-radius: 5px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 15px;
     background-image: linear-gradient(45deg, #f391ad, #EC4C7A);
+}
+
+.link-button:hover {
+    background-image: linear-gradient(45deg, #f2c742, #efb914);
 }
 
 /* This is biograpy css */
@@ -150,6 +154,10 @@ p{
     background-image: linear-gradient(45deg, #f17a9c, #d5174d);
     width: 50%;
     margin-left: 22%;
+}
+
+.message:hover{
+    background-image: linear-gradient(45deg, #f2c742, #efb914);
 }
 
 /* This is main footer css */
