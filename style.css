@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #EC4C7A;
+    margin: 10px 0px;
+    padding: 0;
+}
+p{
+    font-weight: 400;
+    color: #636366;
+    margin: 40px 0px;
+    padding: 0;
+    line-height: 26px;
+}
+.header-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+    height: 500px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.fix1{
+    margin-top: 25%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10px;
+    background-image: linear-gradient(45deg, #f391ad, #EC4C7A);
+}
+
+/* This is biograpy css */
+
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+    height: 500px;
+}
+.biography-area h2{
+    font-size: 30px;
+}
+
+.fix2{
+    margin-top: 10%;
+}
+
+/* This is latest work css */
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+    height: 500px;
+}
+.latest-work-area h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.work-simple{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+.work-simple img{
+    width: 30%;
+    margin-left: 20px;
+}
+
+/* This is footer area css */
+.footer-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.footer-area h2{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.footer-area h4{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer-area h5{
+    margin: 0;
+    color: #636366;
+    font-weight: 400;
+}
+.footer-area .comment{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 70px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+.footer-area .message p{
+    color: #ffffff;
+    font-weight: 400;
+    margin: 20px 0;
+    padding: 0;
+    font-size: 15px;
+
+}
+.footer-area .message h3{
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.message{
+    padding: 30px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #f17a9c, #d5174d);
+    width: 50%;
+    margin-left: 22%;
+}
+
+/* This is main footer css */
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px 0px;
+    margin: 0;
+}
